@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1.0" , initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>The typeof operator returns the type of a variable or an expression.</p>
+
+    <p id="demo"></p>
+
+    <script>
+        document.getElementById("demo").innerHTML =
+            typeof 15 + "<br>" +
+            typeof 5.5 + "<br>" +
+            typeof NaN + "<br>" +
+            typeof "hello" + "<br>" +
+            typeof true + "<br>" +
+            typeof (1 != 2) + "<br>" +
+            typeof ("ham" + "s") + "<br>" +
+            typeof ("ham" - "s") + "<br>" +
+            typeof ("1" + "3") + "<br>" +
+            typeof ("1" - "3") + "<br>" +
+            typeof ("johnny" + 5) + "<br>" +
+            typeof ("johnny" - 5) + "<br>" +
+            typeof (99 * "hello") + "<br>" +
+            typeof (1 != 1) + "<br>" +
+            typeof (1 == "1") + "<br>" +
+            typeof (1 === "1");
+    </script>
+    <script src="my.js"></script>
+</body>
+
+</html>

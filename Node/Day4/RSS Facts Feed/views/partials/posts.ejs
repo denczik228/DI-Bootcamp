@@ -1,0 +1,18 @@
+<% posts.forEach( post=> { %>
+    <div>
+        <a href='<%= post.link %>' target=_blank>
+            <h4>
+                <%= post.title %>
+            </h4>
+        </a>
+        <p>
+            <%= post.pubDate %> | <%= post.creator %> | <strong>
+                        <%= post.categories %>
+                    </strong>
+        </p>
+        <p>
+            <%= post.contentSnippet %>
+        </p>
+        <hr>
+    </div>
+    <% }) %>

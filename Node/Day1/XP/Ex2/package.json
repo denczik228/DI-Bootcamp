@@ -1,0 +1,12 @@
+{
+  "name": "ex2",
+  "version": "1.0.0",
+  "description": "ex2 creating pack.json",
+  "main": "index.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

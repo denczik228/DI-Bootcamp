@@ -1,0 +1,32 @@
+#countryListFrom{
+    width: 300px;
+    height: 50px;
+}
+#countryListTo{
+    width: 300px;
+}
+
+#exchange_btn{
+    width: 150px;
+    background-color: green;
+    margin-top:20%
+;}
+
+#changeRateID{
+    background-image: url('https://cdn1.iconfinder.com/data/icons/media-volume-2/48/063-512.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    margin: 1rem;
+}
+
+#form_exchange{
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: row;
+    height: 25vh;
+    background-color: wheat;
+    border-radius: 3%;
+    padding: 2rem;
+}

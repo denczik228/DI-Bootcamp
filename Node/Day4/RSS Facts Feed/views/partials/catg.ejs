@@ -1,0 +1,9 @@
+<select class="" name="category">
+    <option value=""></option>
+    <% catg.forEach((post, i)=> {
+        post.categories.forEach((catname, i) => { %>
+        <option value="<%= catname%>">
+            <%= catname%>
+        </option>
+        <% }); }); %>
+</select>

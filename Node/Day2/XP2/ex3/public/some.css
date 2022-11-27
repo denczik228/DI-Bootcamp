@@ -1,0 +1,21 @@
+
+h1{
+    border: 1px dotted blue;
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+}
+
+p{
+    display: flex;
+    font-size: larger;
+    text-align: center;
+    justify-content: center;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+}

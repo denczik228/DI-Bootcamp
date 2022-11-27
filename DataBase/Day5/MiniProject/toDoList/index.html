@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="task.html" method="POST">
+      <label for="taskName">Task Name</label>
+      <input type="text" id="taskName" name="taskName" /><br />
+      <textarea
+        rows="4"
+        cols="50"
+        id="taskDescription"
+        name="taskDescription"
+        form="taskForm"
+        placeholder="Enter description here..."
+      ></textarea
+      ><br />
+      <label for="startDate">Start date and time:</label>
+      <input id="startDate" type="datetime-local" name="startDate" /><br />
+      <label for="endDate">End date and time:</label>
+      <input id="endDate" type="datetime-local" name="endDate" /><br />
+      <a href="task.html" target="_blank"></a>>
+        <input id="submitBtn" type="submit" value="Submit" />
+      </a>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>

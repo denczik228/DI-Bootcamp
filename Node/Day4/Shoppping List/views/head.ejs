@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New shopping list</title>
+</head>
+
+<body>
+    <main>
+        <div class="header">
+            <h1>My Shopping list</h1>
+            <form>
+                <input id="name" type="text" placeholder="Item name" />
+                <input id="amount" type="text" placeholder="Amount" />
+                <input id="button" type="submit" value="Submit" />
+            </form>
+            <p>template used EJS for updating and recieving data from index.html</p>
+        </div>
+        <ul>
+            <% forEjs.forEach(function(elem) { %>
+                <li>
+                    Item:<strong>
+                        <%= elem.Item %>
+                    </strong>
+                    amount: <%= elem.Amount %>
+                </li>
+                <% }); %>
+        </ul>
+    </main>
+</body>
+
+</html>

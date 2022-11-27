@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        html {
+            height: 100%;
+            width: 100%;
+            padding-top: 30px;
+        }
+
+        input {
+            width: 420px;
+            background-color: gainsboro;
+            text-align: left;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin-left: 20px;
+            border-radius: 6px;
+            border: 1px solid black;
+        }
+
+        form {
+            display: flex;
+            justify-content: center;
+            height: 30px;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        #jsonstring {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+    <title>HTML FORM</title>
+</head>
+
+<body>
+    <form action="#" method="post">
+        <input type="text" name="name:" id="firstname" placeholder="firstname" required>
+        <input type="text" name="lastname:" id="lastname" placeholder="lastname" required>
+        <button type="submit" id="submit">Send</button>
+    </form>
+    <div id="jsonstring"></div>
+    <script src="dc.js"></script>
+</body>
+
+</html>

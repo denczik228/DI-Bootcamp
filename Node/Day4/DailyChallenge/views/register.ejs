@@ -1,0 +1,33 @@
+<div class="container mt-4">
+    <div class="card" style="width: 18rem;">
+        <div class="card-header">Register Form</div>
+        <div class="card-body">
+            <form action="/register" method="POST">
+                <div class="mb-3">
+                    <label for="name-reg" class="form-label">First name</label>
+                    <input type="text" class="form-control" id="name-reg" name="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="lname-reg" class="form-label">Last name</label>
+                    <input type="text" class="form-control" id="lname-reg" name="lname">
+                </div>
+                <div class="mb-3">
+                    <label for="email-reg" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email-reg" name="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="username" class="form-label">Username</label>
+                    <input type="text" class="form-control" id="username" name="username">
+                </div>
+                <div class="mb-3">
+                    <label for="password-reg" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password-reg" name="password" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Register</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<a href="/login">Login Form</a>
+<a href="/">Home</a>
